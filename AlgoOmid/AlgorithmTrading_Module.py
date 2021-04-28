@@ -8,8 +8,8 @@ from statistics import stdev
 from datetime import date, timedelta, datetime
 import time
 import requests
-import threading
-from threading import Timer, Event, Thread
+#import threading
+#from threading import Timer, Event, Thread
 import json
 
 
@@ -65,7 +65,7 @@ class Isin:
 def Create_isin_object(isn):
     return Isin(isn)
 
-
+"""
 #The Class to repeat a function as threading module every n seconds
 class RepeatedTimer:
 
@@ -98,6 +98,7 @@ def Repeat_Function(interval, function, *args, **kwargs):
     
 # What about stopping a function?
 
+"""
 # Getting StockWatch data
 
 def TSE_Close_Daily(bourse_id):
