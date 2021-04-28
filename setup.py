@@ -8,7 +8,7 @@ setup(
   author = 'Behzad Azadie faraz',                   # Type in your name
   author_email = 'b.azadi@webmail.omid.ir',      # Type in your E-Mail
   url = 'https://github.com/behzadazadie/OmidAlgo',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/behzadazadie/AlgoOmid/archive/refs/tags/v1.0.9.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/behzadazadie/AlgoOmid/archive/refs/tags/v1.0.10.tar.gz',    # I explain this later on
   keywords = ['Algorithmic Trading', 'Finance', 'Trading'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
