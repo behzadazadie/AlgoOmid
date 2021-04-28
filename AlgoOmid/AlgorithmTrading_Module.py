@@ -69,7 +69,7 @@ def Create_isin_object(isn):
 #The Class to repeat a function as threading module every n seconds
 class RepeatedTimer:
 
-    """Repeat `function` every `interval` seconds."""
+#Repeat `function` every `interval` seconds.
 
     def __init__(self, interval, function, *args, **kwargs):
         self.interval = interval
