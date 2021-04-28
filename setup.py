@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'AlgoOmid',         # How you named your package folder (MyLib)
   packages = ['AlgoOmid'],   # Chose the same as "name"
-  version = '1.0.2',      # Start with a small number and increase it with every change you make
+  version = '1.0.4',      # Start with a small number and increase it with every change you make
   license='OmidAnalyzer',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A few Classes and Functions for Algorithmic Trading++',   # Give a short description about your library
   author = 'Behzad Azadie faraz',                   # Type in your name
   author_email = 'b.azadi@webmail.omid.ir',      # Type in your E-Mail
   url = 'https://github.com/behzadazadie/OmidAlgo',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/behzadazadie/AlgoOmid/archive/refs/tags/v1.0.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/behzadazadie/AlgoOmid/archive/refs/tags/V1.0.2.tar.gz',    # I explain this later on
   keywords = ['Algorithmic Trading', 'Finance', 'Trading'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
@@ -16,7 +16,6 @@ setup(
 	'statistics',
 	'datetime',
 	'requests',
-	'ast',
 	'multiprocessing',
 	'threading',
 	'json',

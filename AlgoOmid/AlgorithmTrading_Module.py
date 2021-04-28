@@ -8,7 +8,6 @@ from statistics import stdev
 from datetime import date, timedelta, datetime
 import time
 import requests
-import ast
 from multiprocessing import Pool
 import threading
 from threading import Timer, Event, Thread
