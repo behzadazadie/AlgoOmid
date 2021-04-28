@@ -6,7 +6,6 @@ from pandas import Series
 from numpy import log
 from statistics import stdev
 from datetime import date, timedelta, datetime
-from time import sleep
 import time
 import requests
 import ast
